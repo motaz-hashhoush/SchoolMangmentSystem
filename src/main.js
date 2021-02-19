@@ -58,8 +58,8 @@ function showMessage(event){
 // Show list of students 
 function print(){
 
-	var output = '';
 
+	var output = '';
     for (var i in students) {
         var student = [];
 
@@ -67,9 +67,10 @@ function print(){
             student.push(Propertie + ': ' + students[i][Propertie]);
         }
 
-        output += "<li>" + student.join('<br>') + "</li>";
+        output += "<li>" + student.join('<br>') + "</li> <br>";
     }
 
+	document.getElementById("names").style.display = 'block';
 	document.getElementById("names").innerHTML = "<ol>" + output + "</ol>";
 }
 

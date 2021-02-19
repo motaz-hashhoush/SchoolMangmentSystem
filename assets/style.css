@@ -39,15 +39,19 @@ body{
     display: none;
     
 }
-
+#names {
+    padding: auto;
+}
 
 .column {
     float: left;
     width: 25.33%;
-    padding: 20px;
+    padding: 15px;
     margin: 13px;
+    margin-left: 45px;
     height: 300px; /* Should be removed. Only for demonstration */
     border: 2px solid rgb(235, 191, 109);
+    background: rgba(253, 253, 255, 0.8);
     border-radius: 10px ;
   }
   
