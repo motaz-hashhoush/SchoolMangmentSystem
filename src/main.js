@@ -110,11 +110,6 @@ function Update() {
 	let name = document.getElementById('UpdateName').value;
 	let id = document.getElementById('UpdateId').value;
 	let gdpa = document.getElementById('UpdateGdpa').value;
-       
-   console.log(name);
-   console.log(id);
-   console.log(gdpa);
-   console.log(index);
 
    if(index != -1){
 
@@ -128,7 +123,7 @@ function Update() {
 	students[index]["gdpa"] = gdpa;
     alert("student Update");
    }
-   alert("student is not Update");
+  
 }
 
 // This week task:
